@@ -29,7 +29,7 @@ function Login() {
 
           <button type="submit">Entrar <FiArrowRight /></button>
         </form>
-        <p>Não faz parte dessa tripulação? <Link to="/login"> Cadastre-se!</Link></p>
+        <p>Não faz parte dessa tripulação? <Link to="/register"> Cadastre-se!</Link></p>
       </Content>
     </Container>
   );
