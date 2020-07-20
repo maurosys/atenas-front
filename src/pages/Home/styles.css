@@ -4,3 +4,20 @@
     width: 100%;
     height: 50px;
 }
+
+.imgLogo {
+  text-align: center;
+  justify-content: center;
+}
+
+.imgLogo img {
+    margin: auto;
+    max-width: 400px;
+}
+
+.descricao {
+    width: 80%;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+}
