@@ -9,10 +9,9 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #fff;
+    background: #f5f5f5;
     color: #333;
     -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
   }
 
   body, #root {
@@ -32,8 +31,8 @@ export default createGlobalStyle`
     cursor: pointer;
   }
 
-  :root {
-    --primary: #6200EE;
-    --secundary: #1D096B;
-  }
+  /* :root {
+    --primary: #242a4c;
+    --secundary: #1c213e;
+  } */
 `;
