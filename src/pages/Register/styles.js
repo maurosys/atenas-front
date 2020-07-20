@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { shade } from 'polished';
 
 export const Container = styled.div`
   height: 100vh;
@@ -23,7 +22,6 @@ export const Container = styled.div`
 export const Content = styled.div`
   padding: 20px;
   position: relative;
-  top: -100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,10 +83,6 @@ export const Content = styled.div`
 
       > svg {
         margin-left: 10px;
-      }
-
-      &:hover {
-        background: ${shade(0.2, '#6200EE')}
       }
     }
   }

@@ -4,6 +4,7 @@ import { FaStreetView } from 'react-icons/fa';
 import { GrDocument } from 'react-icons/gr';
 import { AiOutlineFieldNumber } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
+import Menu from '../../components/menu';
 
 import { Container, Content } from './styles';
 
